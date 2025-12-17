@@ -33,3 +33,34 @@ This approach is useful to:
 - Required libraries:
   ```bash
   pip install biopython pandas matplotlib seaborn
+
+## Usage 
+
+- Input
+
+A folder containing multiple FASTA files
+
+Each FASTA file represents one alignment (locus)
+
+FASTA headers must contain a taxon identifier (e.g. species name)
+
+Example:
+
+locus_001.fasta
+locus_002.fasta
+locus_003.fasta
+...
+
+- Output
+
+The script generates:
+
+Presence/absence table
+
+taxon_alignment_presence_absence.csv
+
+Colored heatmap
+
+heatmap_taxon_alignment_colored.png
+
+heatmap_taxon_alignment_colored.pdf
