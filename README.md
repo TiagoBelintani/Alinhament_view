@@ -34,7 +34,7 @@ This approach is useful to:
   ```bash
   pip install biopython pandas matplotlib seaborn
 
-## Usage 
+## Files
 
 - Input
 
